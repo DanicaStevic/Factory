@@ -12,7 +12,7 @@ public class Main {
         String message = "Ovo je poruka";
         
         
-        Car fiat = new Car("Fiat punto", 2010, "black", 45, 20 , 6, 200, 4, 5 );
+        Car fiat = new Car("Fiat punto", 2010, "black", 45, 20 , 6, 200, 0, 5 );
         fiat.showData ();
       
             
@@ -38,7 +38,7 @@ public class Main {
         lada.fuelUp (20);
         lada.travel(400);
         
-        lada
+     
        // ford.model = "Focus";
        // ford.buildYear = 2015;
        // ford.color = "white";

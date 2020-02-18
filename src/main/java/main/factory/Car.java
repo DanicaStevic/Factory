@@ -131,18 +131,19 @@ public void fuelUp (int refill) {
 } 
 public void getIn() {
    
-   if( this.passangers=this.getPassangers()+1 <= this.getSeats(){
+   if (this.getPassangers()+1 <= this.getSeats()){
        this.setPassangers(this.passangers=this.getPassangers()+1);
-   else { 
+   }
+   else { System.out.println("Automobil je pun. Nema dovoljno mesta za jos jednog putnika");
            
                }    
    }
     
-    System.out.println("Koliko osoba je uslo" + getPassangers());
+   
     
 }
 
-}
+
        
 //kolicina goriva da se smanji za onoliko koliko je potrebno
 //kilometraza treba da se uveca
